@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 #
 # Copyright (C) 2012 Google Inc.
 #
@@ -34,4 +34,3 @@ message = nav_msgs.Odometry()
 buf = io.StringIO()
 message.serialize(buf)
 print(''.join('0x%02x,' % ord(c) for c in buf.getvalue())[:-1])
-

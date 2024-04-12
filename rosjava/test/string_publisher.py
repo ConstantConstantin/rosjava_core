@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from ros import rospy
 from ros import std_msgs
 import std_msgs.msg

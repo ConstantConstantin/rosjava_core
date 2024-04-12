@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from ros import rospy
 from ros import rosjava_test_msgs
 import rosjava_test_msgs.msg

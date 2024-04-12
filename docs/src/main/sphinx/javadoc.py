@@ -34,4 +34,3 @@ def make_javadoc_link(name, rawtext, text, lineno, inliner, options={}, content=
 def setup(app):
   app.add_config_value('javadoc_root', None, 'env')
   app.add_role('javadoc', make_javadoc_link)
-

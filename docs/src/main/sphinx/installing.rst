@@ -37,7 +37,7 @@ ROS Installation
 
 If you would like a full ros environment backending your installation (you might
 be generating code for your own custom messages, sequencing builds of multiple rosjava
-repositories or using mixed packages, e.g. java + python) then refer to the `RosWiki`_
+repositories or using mixed packages, e.g. java + python3) then refer to the `RosWiki`_
 for more details.
 
 .. _RosWiki: http://wiki.ros.org/rosjava

@@ -14,7 +14,7 @@
  * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
  * KIND, either express or implied.  See the License for the
  * specific language governing permissions and limitations
- * under the License.    
+ * under the License.
  */
 package org.apache.xmlrpc.metadata;
 
@@ -42,13 +42,13 @@ public class Util {
 	static {
 		Class c;
 		try {
-			c = Class.forName("javax.xml.bind.Element");
+			c = Class.forName("jakarta.xml.bind.Element");
 		} catch (ClassNotFoundException e) {
 			c = null;
 		}
 		jaxbElementClass = c;
 	}
-	
+
 	/** Returns a signature for the given return type or
 	 * parameter class.
 	 * @param pType The class for which a signature is being
@@ -122,7 +122,7 @@ public class Util {
      * @return Signature string, or null, if no signature
      * is available.
      */
-    public static String[] getSignature(Method pMethod) {    
+    public static String[] getSignature(Method pMethod) {
 		Class[] paramClasses = pMethod.getParameterTypes();
 		String[] sig = new String[paramClasses.length + 1];
 		String s = getSignatureType(pMethod.getReturnType());

@@ -14,12 +14,12 @@
  * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
  * KIND, either express or implied.  See the License for the
  * specific language governing permissions and limitations
- * under the License.    
+ * under the License.
  */
 package org.apache.xmlrpc.jaxb;
 
-import javax.xml.bind.Element;
-import javax.xml.bind.JAXBContext;
+import jakarta.xml.bind.Element;
+import jakarta.xml.bind.JAXBContext;
 
 import org.apache.ws.commons.util.NamespaceContextImpl;
 import org.apache.xmlrpc.common.TypeFactoryImpl;
@@ -35,7 +35,7 @@ import org.xml.sax.SAXException;
  */
 public class JaxbTypeFactory extends TypeFactoryImpl {
 	private final JAXBContext context;
-	private final JaxbSerializer serializer; 
+	private final JaxbSerializer serializer;
 
 	/** Creates a new instance with the given controller and
 	 * JAXB context.
